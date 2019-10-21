@@ -1,0 +1,149 @@
+
+
+body {
+    background-color: #2c2c2c;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    padding: 10px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #003fa3;
+    padding: 20px 10px;
+    border-radius: 4px;
+  }
+  
+  .header a {
+    float: left;
+    color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 35px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: rgb(219, 219, 219);
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: #5c5c5c;
+    color: rgb(219, 219, 219);
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+.download a{
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.left {
+    float: left;
+    margin : 5px;
+    display: inline;
+    
+}
+
+.clear {
+    clear:both;
+}
+
+mark {
+    background-color: rgb(219, 219, 219);
+    color: black;
+  }
+img {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+figcaption {
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+h1 a {
+    color: #2200b9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 125px;
+    text-align: center;
+}
+
+h1 b {
+    color: #2200b9;
+    font-family: 'Impact', sans-serif;
+    font-size: 125px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    
+}
+
+h3 {
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+h4 {
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+h5 {
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+ul {
+    color: rgb(219, 219, 219);
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+p {
+    color: rgb(219, 219, 219);
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
