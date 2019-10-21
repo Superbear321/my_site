@@ -66,9 +66,7 @@ body {
 
 .left {
     float: left;
-    margin : 5px;
-    display: inline;
-    
+    margin : 5px;    
 }
 
 .clear {
